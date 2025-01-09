@@ -127,7 +127,7 @@ The generated `package.json` file contains an additional `directus:extension` fi
 - `type` — The type of the extension
 - `path` — The path to the built extension
 - `source` — The path to the source entrypoint
-- `host` — A semver string that indicates with which versions of the Directus host, the extension is compatible with
+- `host` — A server string that indicates with which versions of the Directus host, the extension is compatible with
 
 The CLI will use those fields by default to determine the input and output file paths and how the extension should be
 built.
